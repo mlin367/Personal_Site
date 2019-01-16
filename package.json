@@ -1,0 +1,49 @@
+{
+  "name": "Personal_Site",
+  "version": "1.0.0",
+  "description": "Personal site/portfolio to showcase my projects!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch /client/scss -o /client/css",
+    "build": "webpack -w",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlin367/Personal_Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlin367/Personal_Site/issues"
+  },
+  "homepage": "https://github.com/mlin367/Personal_Site#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "autoprefixer": "^9.4.5",
+    "css-loader": "^2.1.0",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
