@@ -7,13 +7,8 @@ interface NavBarProps {
 
 const NavBar = (props : NavBarProps) => (
   <nav className={styles.navBar}>
-    <div className={styles.logoName}>
-      <div className="logo">
-        ML
-      </div>
-      <div className="name">
-        Matthew Lin
-      </div>
+    <div className={styles.name}>
+      Matthew Lin
     </div>
     <div className={styles.sections}>
       <div className="home">

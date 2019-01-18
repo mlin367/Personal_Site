@@ -1,1 +1,14 @@
-$base-font: 
+@font-face {
+  font-family: 'OstrichSans-inline';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-inline-regular.woff')
+    format('woff');
+}
+
+@font-face {
+  font-family: 'Vegan';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/Vegan+Style+Personal+Use.woff')
+    format('woff');
+}
+
+$navbar-font: 'OstrichSans-inline';
+$name-font: 'Vegan';
