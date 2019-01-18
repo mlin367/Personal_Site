@@ -2,6 +2,8 @@ import * as React from 'react';
 import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 interface AppProps {}
 interface AppState {
@@ -29,10 +31,10 @@ export class App extends React.Component<AppProps, AppState> {
           <About />
         </div>
         <div className="projectsItem">
-
+          <Projects />
         </div>
-        <div className="footerItem">
-
+        <div className="contactItem">
+          <Contact />
         </div>
       </div>
     )
