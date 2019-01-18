@@ -1,12 +1,13 @@
 import * as React from 'react';
+const styles = require('../../scss/components/NavBar.scss');
 
 interface NavBarProps {
 
 }
 
 const NavBar = (props : NavBarProps) => (
-  <nav className="navBar">
-    <div className="logoName">
+  <nav className={styles.navBar}>
+    <div className={styles.logoName}>
       <div className="logo">
         ML
       </div>
@@ -14,7 +15,7 @@ const NavBar = (props : NavBarProps) => (
         Matthew Lin
       </div>
     </div>
-    <div className="sections">
+    <div className={styles.sections}>
       <div className="home">
         Home
       </div>
