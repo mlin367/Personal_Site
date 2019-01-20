@@ -10,5 +10,36 @@
     format('woff');
 }
 
+@font-face {
+  font-family: 'OstrichSans-bold';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/OstrichSans-Bold.woff')
+    format('woff');
+}
+
+@font-face {
+  font-family: 'OstrichSans-dashed';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-dashed.woff')
+    format('woff');
+}
+
+@font-face {
+  font-family: 'OstrichSans-rounded';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-rounded.woff')
+    format('woff');
+}
+
+@font-face {
+  font-family: 'Aller';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/Aller_Lt.woff')
+    format('woff');
+}
+
+
+
 $navbar-font: 'OstrichSans-inline';
+$webDev-font: 'OstrichSans-bold';
 $name-font: 'Vegan';
+$base-color: #8eb598;
+$body-font: 'Aller';
+$heading-font: 'OstrichSans-rounded';
+$dashed: 'OstrichSans-dashed';

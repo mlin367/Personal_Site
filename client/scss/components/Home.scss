@@ -1,0 +1,26 @@
+@import '../helpers/variables';
+
+.home {
+  display: inline-block;
+}
+
+.webDeveloper {
+  color: $base-color;
+  font-family: $webDev-font;
+  font-size: 144px;
+  margin-bottom: 30px;
+}
+
+.underline {
+  width: 80%;
+  border: 0;
+  border-top: 1px solid grey;
+}
+
+.homeWrapper2 {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: $dashed;
+}

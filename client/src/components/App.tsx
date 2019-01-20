@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+const styles = require('../../scss/components/App.scss');
 
 interface AppProps {}
 interface AppState {
@@ -21,10 +22,10 @@ export class App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <div className="AppMain">
-        <div className="navItem">
+  
          <NavBar />
-        </div>
-        <div className="homeItem">
+
+        <div className={styles.homeItem}>
           <Home />
         </div>
         <div className="aboutItem">

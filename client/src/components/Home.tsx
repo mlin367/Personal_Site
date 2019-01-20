@@ -1,19 +1,20 @@
 import * as React from 'react';
+const styles = require('../../scss/components/Home.scss');
 
 const Home = (props : {}) => (
-  <div className="home">
+  <div className={styles.home}>
     <div className="homeWrapper1">
-      <h1 className="webDeveloper">
+      <h1 className={styles.webDeveloper}>
         Web Developer
       </h1>
-      <div className="underline">
+      <hr className={styles.underline}>
 
-      </div>
-      <div className="homeWrapper2">
+      </hr>
+      <div className={styles.homeWrapper2}>
         <span className="design"> Design</span>
-        <span className="dash">-</span>
+        <span className="dash"> - </span>
         <span className="create">Create</span>
-        <span className="dash">-</span>
+        <span className="dash"> - </span>
         <span className="deploy">Deploy</span>
       </div>
     </div>
