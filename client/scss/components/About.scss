@@ -1,12 +1,15 @@
 @import '../helpers/variables';
 
 .about {
+  justify-content: center;
   display: grid;
-  grid-template-columns: min-content 80%;
+  grid-template-columns: min-content 30%;
   grid-template-rows: max-content;
 }
 
 .like {
+  text-align: center;
+  grid-column: 1/3;
   font-family: $heading-font;
 }
 
@@ -15,7 +18,6 @@
 }
 
 .selfie {
-  grid-row: 1/3;
   height: 18em;
   margin-right: 30px;
 }

@@ -1,5 +1,23 @@
+@import '../helpers/variables';
+
+body {
+  margin: 0;
+  display: flex;
+}
+
 .homeItem {
-  margin-top: 125px;
+  margin-top: 80px;
+  background-color: $background-color;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 300px;
+  padding-top: 45px;
+  margin-bottom: 100px;
+}
+
+.aboutItem {
+  margin-bottom: 100px;
+}
+
+.projectsItem {
+  background-color: $background-color;
 }

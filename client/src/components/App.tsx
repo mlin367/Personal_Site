@@ -28,10 +28,10 @@ export class App extends React.Component<AppProps, AppState> {
         <div className={styles.homeItem}>
           <Home />
         </div>
-        <div className="aboutItem">
+        <div className={styles.aboutItem}>
           <About />
         </div>
-        <div className="projectsItem">
+        <div className={styles.projectsItem}>
           <Projects />
         </div>
         <div className="contactItem">
