@@ -1,0 +1,33 @@
+@import '../helpers/variables';
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.contactTitle {
+  margin-bottom: 50px;
+}
+
+.contactWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.emailIcon {
+  height: 2em;
+  width: 2em;
+}
+
+.gitIcon {
+  height: 3em;
+  margin-right: 20px;
+}
+
+.linkedinIcon {
+  height: 3em;
+}

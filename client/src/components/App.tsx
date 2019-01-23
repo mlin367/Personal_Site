@@ -34,7 +34,7 @@ export class App extends React.Component<AppProps, AppState> {
         <div className={styles.projectsItem}>
           <Projects />
         </div>
-        <div className="contactItem">
+        <div className={styles.contactItem}>
           <Contact />
         </div>
       </div>
