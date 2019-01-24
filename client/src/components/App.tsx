@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import { Element } from 'react-scroll';
 const styles = require('../../scss/components/App.scss');
 
 interface AppProps {}
@@ -21,22 +22,21 @@ export class App extends React.Component<AppProps, AppState> {
 
   render() {
     return (
-      <div className="AppMain">
-  
-         <NavBar />
-
-        <div className={styles.homeItem}>
+      <div className="AppMain"> 
+        <NavBar/>
+        <Element name="section1" className={styles.homeItem}>
           <Home />
-        </div>
-        <div className={styles.aboutItem}>
+        </Element>
+        <Element name="section2" className={styles.aboutItem}>
           <About />
-        </div>
-        <div className={styles.projectsItem}>
+        </Element>
+        <Element name="section3" className={styles.projectsItem}>
           <Projects />
-        </div>
-        <div className={styles.contactItem}>
+        </Element>
+        <Element name="section4" className={styles.contactItem}>
           <Contact />
-        </div>
+        </Element>
+
       </div>
     )
   }
