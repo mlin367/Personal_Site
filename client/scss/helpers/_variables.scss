@@ -23,8 +23,8 @@
 }
 
 @font-face {
-  font-family: 'OstrichSans-rounded';
-  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-rounded.woff')
+  font-family: 'OstrichSans-black';
+  src: url('https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-black.woff')
     format('woff');
 }
 
@@ -41,6 +41,6 @@ $webDev-font: 'OstrichSans-bold';
 $name-font: 'Vegan';
 $base-color: #8eb598;
 $body-font: 'Aller';
-$heading-font: 'OstrichSans-rounded';
+$heading-font: 'OstrichSans-black';
 $dashed: 'OstrichSans-dashed';
 $background-color: #f6f6ebad;

@@ -1,20 +1,21 @@
 @import '../helpers/variables';
+@import '../helpers/placeholders';
 
 .about {
   justify-content: center;
   display: grid;
-  grid-template-columns: min-content 30%;
+  grid-template-columns: min-content 40%;
   grid-template-rows: max-content;
 }
 
 .like {
   text-align: center;
   grid-column: 1/3;
-  font-family: $heading-font;
+  @extend %heading-font-specs;
 }
 
 .description {
-  font-family: $body-font;
+  @extend %body-font-specs;
 }
 
 .selfie {

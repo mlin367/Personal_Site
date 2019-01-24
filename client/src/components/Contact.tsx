@@ -9,6 +9,10 @@ const Contact = (props: {}) => (
       <a className="email">mlin36729@gmail.com</a>
     </div>
     <div className={styles.contactWrapper2}>
+      <img src="http://www.stickpng.com/assets/thumbs/5a4525b2546ddca7e1fcbc82.png" className={styles.phoneIcon}></img>
+      <span className={styles.phoneNumber}>+1-714-876-7358</span>
+    </div>
+    <div className={styles.contactWrapper3}>
       <img src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png" className={styles.gitIcon}></img>
       <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png" className={styles.linkedinIcon}></img>
     </div>

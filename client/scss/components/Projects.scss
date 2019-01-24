@@ -1,24 +1,73 @@
+@import '../helpers/variables';
+@import '../helpers/placeholders';
+
 %projectSpecs {
   margin: 0 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .projects {
   display: grid;
   grid-template-rows: max-content;
-  grid-template-columns: 30% 30%;
+  grid-template-columns: 40% 40%;
   justify-content: center;
 }
 
 .projectsTitle {
   grid-column: 1/3;
   text-align: center;
+  @extend %heading-font-specs;
 }
 
 .shoedidas {
   @extend %projectSpecs;
 }
 
+.shoedidasLogo {
+  background-color: black;
+  border-radius: 30px;
+  height: 9em;
+}
+
+.shoedidasTitle {
+  font-family: $body-font;
+}
+
+.shoedidasDescription {
+  @extend %body-font-specs;
+}
+
+.shoedidasLinks {
+  @extend %links;
+  @extend %body-font-specs;
+}
+
 .gomoku {
   @extend %projectSpecs;
 }
 
+.gomokuLogo {
+  border-radius: 30px;
+  height: 9em;
+}
+
+.gomokuTitle {
+  font-family: $body-font;
+}
+
+.gomokuDescription {
+  @extend %body-font-specs;
+}
+
+.gomokuLinks {
+  @extend %links;
+  @extend %body-font-specs;
+}
