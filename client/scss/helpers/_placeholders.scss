@@ -10,3 +10,10 @@
   letter-spacing: 1px;
   line-height: 2;
 }
+
+%navbar-sections {
+  cursor: pointer;
+  &:hover{
+    text-shadow: 0 0 10px white, 0 0 20px white;
+  }
+}
