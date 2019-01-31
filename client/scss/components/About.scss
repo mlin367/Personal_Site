@@ -4,7 +4,7 @@
 .about {
   justify-content: center;
   display: grid;
-  grid-template-columns: min-content 40%;
+  grid-template-columns: min-content 50%;
   grid-template-rows: max-content;
 }
 
@@ -19,6 +19,7 @@
 }
 
 .selfie {
+  margin-block-start: 2em;
   height: 18em;
   margin-right: 30px;
 }

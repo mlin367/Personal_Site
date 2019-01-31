@@ -22,7 +22,7 @@ const NavBar = (props : NavBarProps) => (
           <Link activeClass="active" className={styles.section3} to="section3" spy={true} offset={-60} smooth={true} duration={500} >Projects</Link>
         </div>
         <div>
-          <a className={styles.resume} href="https://s3.us-east-2.amazonaws.com/matthew-site/CV_Lin_Matthew.pdf">Resume</a>
+          <a className={styles.resume} target="_blank" href="https://s3.us-east-2.amazonaws.com/matthew-site/CV_Lin_Matthew.pdf">Resume</a>
         </div>
         <div className={styles.section4}>
           <Link activeClass="active" className="section4" to="section4" spy={true} offset={-60} smooth={true} duration={500} >Contact</Link>
