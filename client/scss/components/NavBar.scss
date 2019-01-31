@@ -49,6 +49,8 @@
 
 .resume {
   @extend %navbar-sections;
+  text-decoration: none;
+  color: white;
 }
 
 .section4 {

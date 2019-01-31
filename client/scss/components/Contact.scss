@@ -1,6 +1,14 @@
 @import '../helpers/variables';
 @import '../helpers/placeholders';
 
+%icon-specs {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: $base-color;
+  }
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -47,5 +55,9 @@
 }
 
 .linkedinIcon {
-  height: 3em;
+  @extend %icon-specs;
+}
+
+.gitIcon {
+  @extend %icon-specs;
 }

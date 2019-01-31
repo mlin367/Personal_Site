@@ -13,8 +13,8 @@ const Contact = (props: {}) => (
       <span className={styles.phoneNumber}>+1-714-876-7358</span>
     </div>
     <div className={styles.contactWrapper3}>
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png" className={styles.gitIcon}></img>
-      <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png" className={styles.linkedinIcon}></img>
+      <a target="_blank" href="https://github.com/mlin367"><i className={`fab fa-github fa-3x ${styles.gitIcon}`}></i></a> 
+      <a target="_blank" href="https://linkedin.com/in/mlin367"><i className={`fab fa-linkedin fa-3x ${styles.linkedinIcon}`}></i></a>
     </div>
   </div>
 )
