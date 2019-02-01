@@ -14,6 +14,15 @@
   justify-content: space-evenly;
 }
 
+%link-specs {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  &:hover {
+    color: $base-color;
+  }
+}
+
 .projects {
   display: grid;
   grid-template-rows: max-content;
@@ -70,4 +79,20 @@
 .gomokuLinks {
   @extend %links;
   @extend %body-font-specs;
+}
+
+.shoeGit {
+  @extend %link-specs;
+}
+
+.shoeLink {
+  @extend %link-specs;
+}
+
+.goGit {
+  @extend %link-specs;
+}
+
+.goLink {
+  @extend %link-specs;
 }
