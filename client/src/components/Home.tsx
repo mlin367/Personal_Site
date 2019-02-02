@@ -3,8 +3,8 @@ const styles = require('../../scss/components/Home.scss');
 
 const Home = (props : {}) => (
   <div className={styles.home}>
-    <div className="homeWrapper1">
-      <h1 className={styles.webDeveloper}>
+    <div className={styles.homeWrapper1}>
+      <h1 data-shadow="Web Developer" className={styles.webDeveloper}>
         Web Developer
       </h1>
       <hr className={styles.underline}>

@@ -7,6 +7,7 @@
 // }
 
 .navBar {
+  z-index: 10;
   font-family: $navbar-font;
   position: fixed;
   background-color: $base-color;
