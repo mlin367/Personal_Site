@@ -12,9 +12,9 @@ const Home = (props : {}) => (
       </hr>
       <div className={styles.homeWrapper2}>
         <span className="design"> Design</span>
-        <span className="dash"> - </span>
-        <span className="create">Create</span>
-        <span className="dash"> - </span>
+        {/* <span className="dash"> - </span> */}
+        <span className="create"> - Create - </span>
+        {/* <span className="dash"> - </span> */}
         <span className="deploy">Deploy</span>
       </div>
     </div>

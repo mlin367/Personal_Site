@@ -8,51 +8,37 @@
   position: relative;
 }
 
-@keyframes shad-anim {
-  0% {
-    background-position: 0 0;
+@keyframes fade-in {
+  from {
+    opacity: 0;
   }
-  0% {
-    background-position: 100% -100%;
+  to {
+    opacity: 1;
   }
 }
 
 .webDeveloper {
+  opacity: 0;
+  animation: fade-in ease 3s forwards;
   color: $base-color;
   font-family: $webDev-font;
-  font-size: 12em;
+  font-size: 10em;
   margin-bottom: 30px;
-  text-shadow: 0.03em 0.03em 0 $background-color;
-  &::after {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    content: attr(data-shadow);
-    position: absolute;
-    top: 1.35em;
-    left: 1.45em;
-    z-index: -1;
-    text-shadow: none;
-    background-image: linear-gradient(
-      45deg,
-      black 45%,
-      hsla(48, 20%, 90%, 1) 45%,
-      hsla(48, 20%, 90%, 1) 55%,
-      black 0
-    );
-    background-size: 0.05em 0.05em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    animation: shad-anim 15s linear infinite;
-  }
+  text-shadow: 0px 0px 1px black;
 }
 
 .underline {
+  opacity: 0;
+  animation: fade-in ease 3s forwards;
+  animation-delay: 0.5s;
   width: 80%;
   border: 0;
-  border-top: 1px solid grey;
+  border-top: 5px double lightslategrey;
+}
+
+.homeWrapper2 > span {
+  opacity: 0;
+  animation: fade-in ease 2s forwards;
 }
 
 .homeWrapper2 {
@@ -61,6 +47,13 @@
   font-weight: 600;
   letter-spacing: 3px;
   font-family: $dashed;
+  text-shadow: 0 0 5px;
+}
+
+@for $i from 1 through 3 {
+  .homeWrapper2 span:nth-child(#{$i}) {
+    animation-delay: #{($i + 1) * 0.7}s;
+  }
 }
 
 // @media only screen and (max-width: 800px) {
