@@ -17,7 +17,7 @@ const About = (props: {}) => (
       myself to new tech stacks as I enjoy learning and new challenges.
       <br />
       <br />I am aiming to become a full-fledged software engineer, with an
-      emphasis on front-end and full stack development. Please take a look at
+      emphasis on front-end and full stack development. Please take a look at my
       resume to get a more in-depth look on my skills and projects. If any of it
       interests you, feel free to get in touch with me through any of the
       contact information I have provided. I hope you have a good day!

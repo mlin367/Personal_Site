@@ -285,7 +285,7 @@ var About = function (props) { return (React.createElement("div", { className: s
         "Hi, my name is Matthew Lin and I graduated from UCSD with a chemical engineering degree. Although I enjoyed the skills that the field provided me, I yearned for something more practical and decided to pursue programming. Since then, I've built full stack applications, utilizing both front-end and back-end technologies, and I am constantly exposing myself to new tech stacks as I enjoy learning and new challenges.",
         React.createElement("br", null),
         React.createElement("br", null),
-        "I am aiming to become a full-fledged software engineer, with an emphasis on front-end and full stack development. Please take a look at resume to get a more in-depth look on my skills and projects. If any of it interests you, feel free to get in touch with me through any of the contact information I have provided. I hope you have a good day!"))); };
+        "I am aiming to become a full-fledged software engineer, with an emphasis on front-end and full stack development. Please take a look at my resume to get a more in-depth look on my skills and projects. If any of it interests you, feel free to get in touch with me through any of the contact information I have provided. I hope you have a good day!"))); };
 exports.default = About;
 
 
@@ -463,7 +463,7 @@ var Projects = function (props) { return (React.createElement("div", { className
         React.createElement("p", { className: styles.gomokuDescription }, "Gomoku is a game played on a 15 x 15 board played by two players where the first player to connect five stones in a row wins. This application was built utilizing web sockets and so two players can play against each other in real time. Feel free to take a look at my github and the link to find out more about this application (currently NOT mobile friendly)!"),
         React.createElement("div", { className: styles.gomokuLinks },
             React.createElement("a", { className: styles.goGit, target: "_blank", href: "https://github.com/mlin367/MVP-2.0" }, "Github"),
-            React.createElement("a", { className: styles.goLink, target: "_blank", href: "http://18.223.98.89:1337/" }, "Link"))))); };
+            React.createElement("a", { className: styles.goLink, target: "_blank", href: "http://www.mlinprojects.com:1337" }, "Link"))))); };
 exports.default = Projects;
 
 

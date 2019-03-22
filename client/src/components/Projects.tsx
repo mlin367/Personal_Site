@@ -37,7 +37,7 @@ const Projects = (props: {}) => (
       </p>
       <div className={styles.gomokuLinks}>
         <a className={styles.goGit} target="_blank" href="https://github.com/mlin367/MVP-2.0">Github</a>
-        <a className={styles.goLink} target="_blank" href="http://18.223.98.89:1337/">Link</a>
+        <a className={styles.goLink} target="_blank" href="http://www.mlinprojects.com:1337">Link</a>
       </div>
     </div>
   </div>
