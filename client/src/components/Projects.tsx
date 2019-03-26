@@ -18,8 +18,20 @@ const Projects = (props: {}) => (
         find out more about this application!
       </p>
       <div className={styles.shoedidasLinks}>
-        <a className={styles.shoeGit} target="_blank" href="https://github.com/mlin367/Adidas-Clone">Github</a>
-        <a className={styles.shoeLink} target="_blank" href="http://54.146.229.91/">Link</a>
+        <a
+          className={styles.shoeGit}
+          target="_blank"
+          href="https://github.com/mlin367/Adidas-Clone"
+        >
+          Github
+        </a>
+        <a
+          className={styles.shoeLink}
+          target="_blank"
+          href="http://54.146.229.91/"
+        >
+          Link
+        </a>
       </div>
     </div>
     <div className={styles.gomoku}>
@@ -36,8 +48,51 @@ const Projects = (props: {}) => (
         to find out more about this application (currently NOT mobile friendly)!
       </p>
       <div className={styles.gomokuLinks}>
-        <a className={styles.goGit} target="_blank" href="https://github.com/mlin367/MVP-2.0">Github</a>
-        <a className={styles.goLink} target="_blank" href="http://www.mlinprojects.com:1337">Link</a>
+        <a
+          className={styles.goGit}
+          target="_blank"
+          href="https://github.com/mlin367/MVP-2.0"
+        >
+          Github
+        </a>
+        <a
+          className={styles.goLink}
+          target="_blank"
+          href="http://www.mlinprojects.com:1337"
+        >
+          Link
+        </a>
+      </div>
+    </div>
+    <div className={styles.yelp}>
+      <img
+        src="https://s3.us-east-2.amazonaws.com/matthew-site/yelpLogo.JPG"
+        className={styles.yelpLogo}
+      />
+      <h3 className={styles.yelpTitle}>Yelp-Clone</h3>
+      <p className={styles.yelpDescription}>
+        Yelp-clone is an application that allows the user to search for nearby
+        places based on the user's location. From the search results, the user
+        can find out information about each place such as address, rating,
+        hours, etc. as well as see the location displayed as a marker on a
+        Google Maps UI. Feel free to take a look at my github and the link to
+        find out more about this application!
+      </p>
+      <div className={styles.yelpLinks}>
+        <a
+          className={styles.yelpGit}
+          target="_blank"
+          href="https://github.com/mlin367/Yelp-Clone"
+        >
+          Github
+        </a>
+        <a
+          className={styles.yelpLink}
+          target="_blank"
+          href="http://www.mlinprojects.com"
+        >
+          Link
+        </a>
       </div>
     </div>
   </div>

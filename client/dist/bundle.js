@@ -463,7 +463,14 @@ var Projects = function (props) { return (React.createElement("div", { className
         React.createElement("p", { className: styles.gomokuDescription }, "Gomoku is a game played on a 15 x 15 board played by two players where the first player to connect five stones in a row wins. This application was built utilizing web sockets and so two players can play against each other in real time. Feel free to take a look at my github and the link to find out more about this application (currently NOT mobile friendly)!"),
         React.createElement("div", { className: styles.gomokuLinks },
             React.createElement("a", { className: styles.goGit, target: "_blank", href: "https://github.com/mlin367/MVP-2.0" }, "Github"),
-            React.createElement("a", { className: styles.goLink, target: "_blank", href: "http://www.mlinprojects.com:1337" }, "Link"))))); };
+            React.createElement("a", { className: styles.goLink, target: "_blank", href: "http://www.mlinprojects.com:1337" }, "Link"))),
+    React.createElement("div", { className: styles.yelp },
+        React.createElement("img", { src: "https://s3.us-east-2.amazonaws.com/matthew-site/yelpLogo.JPG", className: styles.yelpLogo }),
+        React.createElement("h3", { className: styles.yelpTitle }, "Yelp-Clone"),
+        React.createElement("p", { className: styles.yelpDescription }, "Yelp-clone is an application that allows the user to search for nearby places based on the user's location. From the search results, the user can find out information about each place such as address, rating, hours, etc. as well as see the location displayed as a marker on a Google Maps UI. Feel free to take a look at my github and the link to find out more about this application!"),
+        React.createElement("div", { className: styles.yelpLinks },
+            React.createElement("a", { className: styles.yelpGit, target: "_blank", href: "https://github.com/mlin367/Yelp-Clone" }, "Github"),
+            React.createElement("a", { className: styles.yelpLink, target: "_blank", href: "http://www.mlinprojects.com" }, "Link"))))); };
 exports.default = Projects;
 
 
@@ -611,7 +618,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "@font-face {\n  font-family: 'OstrichSans-inline';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-inline-regular.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'Vegan';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/Vegan+Style+Personal+Use.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'OstrichSans-bold';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/OstrichSans-Bold.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'OstrichSans-dashed';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-dashed.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'OstrichSans-black';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-black.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'Aller';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/Aller_Lt.woff\") format(\"woff\"); }\n\n.projectsTitle-1MnqZtX {\n  font-family: \"OstrichSans-black\";\n  font-size: 40px;\n  color: #8eb598; }\n\n.shoedidasDescription-2lzCe3r, .shoedidasLinks-2mKWUY2, .gomokuDescription-38nXJBG, .gomokuLinks-36H_526 {\n  font-family: \"Aller\";\n  font-size: 16px;\n  letter-spacing: 1px;\n  line-height: 2; }\n\n.shoedidas-16OgdzV, .gomoku-1uGT2lQ {\n  margin: 0 5% 0 5%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-between; }\n\n.shoedidasLinks-2mKWUY2, .gomokuLinks-36H_526 {\n  width: 100%;\n  display: flex;\n  justify-content: space-evenly; }\n\n.shoeGit-2IZ5WLc, .shoeLink-30FKUxO, .goGit-kp3sFxi, .goLink-1XGaPqC {\n  text-shadow: 1px 1px 0;\n  color: dimgray;\n  font-weight: 600; }\n  .shoeGit-2IZ5WLc:hover, .shoeLink-30FKUxO:hover, .goGit-kp3sFxi:hover, .goLink-1XGaPqC:hover {\n    color: #8eb598; }\n\n.projects-1eeCDG0 {\n  display: grid;\n  grid-template-rows: -webkit-max-content;\n  grid-template-rows: max-content;\n  grid-template-columns: 40% 40%;\n  justify-content: center; }\n\n.projectsTitle-1MnqZtX {\n  grid-column: 1/3;\n  text-align: center; }\n\n.shoedidasLogo-3h_nwEx {\n  background-color: black;\n  border-radius: 30px;\n  height: 9em; }\n\n.shoedidasTitle-1zujYj0 {\n  font-family: \"Aller\"; }\n\n.gomokuLogo-34g3BUM {\n  border-radius: 30px;\n  height: 9em; }\n\n.gomokuTitle-EfMqQZ4 {\n  font-family: \"Aller\"; }\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: 'OstrichSans-inline';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-inline-regular.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'Vegan';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/Vegan+Style+Personal+Use.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'OstrichSans-bold';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/OstrichSans-Bold.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'OstrichSans-dashed';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-dashed.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'OstrichSans-black';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/ostrich-sans-black.woff\") format(\"woff\"); }\n\n@font-face {\n  font-family: 'Aller';\n  src: url(\"https://s3.us-east-2.amazonaws.com/matthew-site/Aller_Lt.woff\") format(\"woff\"); }\n\n.projectsTitle-1MnqZtX {\n  font-family: \"OstrichSans-black\";\n  font-size: 40px;\n  color: #8eb598; }\n\n.shoedidasDescription-2lzCe3r, .shoedidasLinks-2mKWUY2, .gomokuDescription-38nXJBG, .gomokuLinks-36H_526, .yelpDescription-1-oIAN0, .yelpLinks-16vUH8v {\n  font-family: \"Aller\";\n  font-size: 16px;\n  letter-spacing: 1px;\n  line-height: 2; }\n\n.shoedidas-16OgdzV, .gomoku-1uGT2lQ, .yelp-1TVUg3l {\n  margin: 0 5% 5% 5%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-between; }\n\n.shoedidasLinks-2mKWUY2, .gomokuLinks-36H_526, .yelpLinks-16vUH8v {\n  width: 100%;\n  display: flex;\n  justify-content: space-evenly; }\n\n.shoeGit-2IZ5WLc, .shoeLink-30FKUxO, .goGit-kp3sFxi, .goLink-1XGaPqC, .yelpGit-1Zh4q5Q, .yelpLink-3SXWQrI {\n  text-shadow: 1px 1px 0;\n  color: dimgray;\n  font-weight: 600; }\n  .shoeGit-2IZ5WLc:hover, .shoeLink-30FKUxO:hover, .goGit-kp3sFxi:hover, .goLink-1XGaPqC:hover, .yelpGit-1Zh4q5Q:hover, .yelpLink-3SXWQrI:hover {\n    color: #8eb598; }\n\n.projects-1eeCDG0 {\n  display: grid;\n  grid-template-rows: -webkit-max-content;\n  grid-template-rows: max-content;\n  grid-template-columns: 40% 40%;\n  justify-content: center; }\n\n.projectsTitle-1MnqZtX {\n  grid-column: 1/3;\n  text-align: center; }\n\n.shoedidasLogo-3h_nwEx {\n  background-color: black;\n  border-radius: 30px;\n  height: 9em; }\n\n.shoedidasTitle-1zujYj0 {\n  font-family: \"Aller\"; }\n\n.gomokuLogo-34g3BUM {\n  border-radius: 30px;\n  height: 9em; }\n\n.gomokuTitle-EfMqQZ4 {\n  font-family: \"Aller\"; }\n\n.yelp-1TVUg3l {\n  margin-bottom: 0;\n  grid-column: 1/3; }\n\n.yelpLogo-2LPyYEY {\n  border-radius: 30px;\n  height: 9em; }\n\n.yelpTitle-V4QlYPm {\n  font-family: \"Aller\"; }\n", ""]);
 
 // Exports
 exports.locals = {
@@ -620,17 +627,24 @@ exports.locals = {
 	"shoedidasLinks": "shoedidasLinks-2mKWUY2",
 	"gomokuDescription": "gomokuDescription-38nXJBG",
 	"gomokuLinks": "gomokuLinks-36H_526",
+	"yelpDescription": "yelpDescription-1-oIAN0",
+	"yelpLinks": "yelpLinks-16vUH8v",
 	"shoedidas": "shoedidas-16OgdzV",
 	"gomoku": "gomoku-1uGT2lQ",
+	"yelp": "yelp-1TVUg3l",
 	"shoeGit": "shoeGit-2IZ5WLc",
 	"shoeLink": "shoeLink-30FKUxO",
 	"goGit": "goGit-kp3sFxi",
 	"goLink": "goLink-1XGaPqC",
+	"yelpGit": "yelpGit-1Zh4q5Q",
+	"yelpLink": "yelpLink-3SXWQrI",
 	"projects": "projects-1eeCDG0",
 	"shoedidasLogo": "shoedidasLogo-3h_nwEx",
 	"shoedidasTitle": "shoedidasTitle-1zujYj0",
 	"gomokuLogo": "gomokuLogo-34g3BUM",
-	"gomokuTitle": "gomokuTitle-EfMqQZ4"
+	"gomokuTitle": "gomokuTitle-EfMqQZ4",
+	"yelpLogo": "yelpLogo-2LPyYEY",
+	"yelpTitle": "yelpTitle-V4QlYPm"
 };
 
 /***/ }),
