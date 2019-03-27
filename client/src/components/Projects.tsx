@@ -42,10 +42,10 @@ const Projects = (props: {}) => (
       <h3 className={styles.gomokuTitle}>Gomoku</h3>
       <p className={styles.gomokuDescription}>
         Gomoku is a game played on a 15 x 15 board played by two players where
-        the first player to connect five stones in a row wins. This application
-        was built utilizing web sockets and so two players can play against each
-        other in real time. Feel free to take a look at my github and the link
-        to find out more about this application (currently NOT mobile friendly)!
+        the first player to connect five stones in a row wins. The online mode
+        of this application was built utilizing web sockets and so two players
+        can play against each other in real time. Feel free to take a look at my
+        github and the link to find out more about this application!
       </p>
       <div className={styles.gomokuLinks}>
         <a
