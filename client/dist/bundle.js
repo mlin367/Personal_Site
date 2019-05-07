@@ -460,7 +460,7 @@ var Projects = function (props) { return (React.createElement("div", { className
     React.createElement("div", { className: styles.gomoku },
         React.createElement("img", { src: "https://s3.us-east-2.amazonaws.com/matthew-site/gomokuPic.JPG", className: styles.gomokuLogo }),
         React.createElement("h3", { className: styles.gomokuTitle }, "Gomoku"),
-        React.createElement("p", { className: styles.gomokuDescription }, "Gomoku is a game played on a 15 x 15 board played by two players where the first player to connect five stones in a row wins. This application was built utilizing web sockets and so two players can play against each other in real time. Feel free to take a look at my github and the link to find out more about this application (currently NOT mobile friendly)!"),
+        React.createElement("p", { className: styles.gomokuDescription }, "Gomoku is a game played on a 15 x 15 board played by two players where the first player to connect five stones in a row wins. The online mode of this application was built utilizing web sockets and so two players can play against each other in real time. Feel free to take a look at my github and the link to find out more about this application!"),
         React.createElement("div", { className: styles.gomokuLinks },
             React.createElement("a", { className: styles.goGit, target: "_blank", href: "https://github.com/mlin367/MVP-2.0" }, "Github"),
             React.createElement("a", { className: styles.goLink, target: "_blank", href: "http://www.mlinprojects.com:1337" }, "Link"))),

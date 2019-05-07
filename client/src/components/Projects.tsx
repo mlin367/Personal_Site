@@ -28,10 +28,15 @@ const Projects = (props: {}) => (
         <a
           className={styles.shoeLink}
           target="_blank"
-          href="http://54.146.229.91/"
+          href="http://52.38.44.191/"
         >
           Link
         </a>
+        <a
+          className={styles.shoeLink}
+          target="_blank"
+          href="http://52.38.44.191:3001/"
+        >My Individual Component</a>
       </div>
     </div>
     <div className={styles.gomoku}>
